@@ -13,7 +13,7 @@
     },
     "mint": "BRoNkvRkKvJqbRPhA31DpZLyPkf8AnKBVf5dGd9VmWEQ",
     "presale": true,
-    "discountPrice": 0
+    "discountPrice": 0.001
   },
   "hiddenSettings": null,
   "storage": "arweave",

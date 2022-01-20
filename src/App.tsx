@@ -34,6 +34,7 @@ const connection = new anchor.web3.Connection(rpcHost
   ? rpcHost
   : anchor.web3.clusterApiUrl('devnet'));
 
+const bronksCandyMachineAddy = "MZhUrkCxcADJwKq4AiFTPdWagN1vLHVCRiUviGK2vEc"
 const txTimeoutInMilliseconds = 30000;
 
 const App = () => {
@@ -59,7 +60,7 @@ const App = () => {
               <Routes>
                 <Route path="/*" element={(
                   <MintPage
-                    candyMachineId={new anchor.web3.PublicKey("BafBD9v9xXJp1JzGGATvJp148nVRrF9HsQzDPH4XiJGR")}
+                    candyMachineId={new anchor.web3.PublicKey(bronksCandyMachineAddy)}
                     connection={connection}
                     startDate={0 /* TODO: Come up with a sensible way to get this without a network call? */}
                     title="Bronk DAO - Requiem Derivs"
