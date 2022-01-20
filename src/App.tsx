@@ -34,7 +34,7 @@ const connection = new anchor.web3.Connection(rpcHost
   ? rpcHost
   : anchor.web3.clusterApiUrl('devnet'));
 
-const bronksCandyMachineAddy = "MZhUrkCxcADJwKq4AiFTPdWagN1vLHVCRiUviGK2vEc"
+const bronksCandyMachineAddy = network === 'devnet' ? "MZhUrkCxcADJwKq4AiFTPdWagN1vLHVCRiUviGK2vEc" : "643bxrn4nZsJfCSD8Kv2S5p6MBf1rjK722Hcx9v1e7d"
 const txTimeoutInMilliseconds = 30000;
 
 const App = () => {
