@@ -1,7 +1,7 @@
 {
   "description": "Joke Bronks are a collection of 10 Bronk memes hand recolored by ipwnstuff.",
-  "image": "0.png",
-  "name": "Joke Bronk #1",
+  "image": "5.png",
+  "name": "Joke Bronk #6",
   "properties": {
     "creators": [
       {
@@ -20,7 +20,7 @@
     "files": [
       {
         "type": "image/png",
-        "uri": "0.png"
+        "uri": "5.png"
       }
     ]
   },
@@ -29,7 +29,7 @@
   "attributes": [
     {
       "trait_type": "Background",
-      "value": "solana"
+      "value": "Tweeked brightness or exposure or something solana"
     },
     {
       "trait_type": "Original Owner",
@@ -37,7 +37,7 @@
     },
     {
       "trait_type": "Character",
-      "value": "Upside Down Bronk"
+      "value": "Under/over or something exposed Bronk"
     }
   ],
   "collection": {
